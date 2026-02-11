@@ -23,7 +23,6 @@
             min-height: 100vh;
         }
 
-        /* Modern Sidebar */
         .sidebar {
             width: 280px;
             background: white;
@@ -63,7 +62,7 @@
             color: #6b7280;
         }
 
-        /* Category Items */
+        
         .category-list {
             list-style: none;
             flex: 1;
@@ -138,7 +137,7 @@
             color: #6366f1;
         }
 
-        /* Sidebar Footer */
+        
         .sidebar-footer {
             border-top: 1px solid #e5e7eb;
             padding-top: 12px;
@@ -166,7 +165,7 @@
             font-size: 16px;
         }
 
-        /* Main Content Area */
+        
         .main-content {
             flex: 1;
             padding: 32px;
@@ -189,7 +188,7 @@
             color: #6b7280;
         }
 
-        /* Posts Grid */
+        
         .posts-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -299,7 +298,7 @@
             color: #374151;
         }
 
-        /* Mobile Responsive */
+    
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
@@ -325,11 +324,11 @@
 </head>
 <body>
     <div class="container">
-        <!-- Modern Sidebar -->
+        
         <aside class="sidebar">
             <div class="sidebar-header">
                 <div class="sidebar-title">Blog</div>
-                <h1 class="blog-title"><img src="c:\Users\ADI\Documents\Personal\IT 15\blogger.png" alt="My Blog"> My Blog</h1>
+                <h1 class="blog-title">📝 My Blog</h1>
                 <p class="blog-subtitle">Explore our categories</p>
             </div>
 
@@ -385,7 +384,6 @@
             </div>
         </aside>
 
-        <!-- Main Content -->
         <main class="main-content">
             <div class="content-header">
                 <h2 class="page-title">
